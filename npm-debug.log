@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\AMAN GARG\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'uninstall',
+1 verbose cli   'npm',
+1 verbose cli   '-g' ]
+2 info using npm@3.3.4
+3 info using node@v10.13.0
+4 verbose stack Error: Cannot find module 'internal/util/types'
+4 verbose stack     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:580:15)
+4 verbose stack     at Function.Module._load (internal/modules/cjs/loader.js:506:25)
+4 verbose stack     at Module.require (internal/modules/cjs/loader.js:636:17)
+4 verbose stack     at require (internal/modules/cjs/helpers.js:20:18)
+4 verbose stack     at evalmachine.<anonymous>:44:31
+4 verbose stack     at Object.<anonymous> (C:\Users\AMAN GARG\AppData\Roaming\npm\node_modules\npm\node_modules\cmd-shim\node_modules\graceful-fs\fs.js:11:1)
+4 verbose stack     at Module._compile (internal/modules/cjs/loader.js:688:30)
+4 verbose stack     at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+4 verbose stack     at Module.load (internal/modules/cjs/loader.js:598:32)
+4 verbose stack     at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+5 verbose cwd C:\Users\AMAN GARG\Desktop\crud_operations
+6 error Windows_NT 10.0.17134
+7 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\AMAN GARG\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "uninstall" "npm" "-g"
+8 error node v10.13.0
+9 error npm  v3.3.4
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'internal/util/types'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
